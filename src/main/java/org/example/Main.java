@@ -11,7 +11,7 @@ public class Main {
         users.add(user1);
         users.add(user2);
         User user = Methods.gerUserId(users);
-        System.out.println(user);
+
 
         Bill bill1 = new Bill(265, user1, 10000);
         ArrayList<Bill> billsUser1 = new ArrayList<>();
